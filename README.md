@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+간단하고 직관적인 React 기반 날씨 조회 앱입니다. 도시 이름을 입력하면 OpenWeather API를 통해 실시간 날씨 정보를 카드 형태로 보여줍니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 설치 및 실행 방법
 
-### `npm start`
+1. 저장소(또는 소스)를 클론/다운로드합니다.
+2. 프로젝트 폴더로 이동합니다.
+   ```sh
+   cd weather-app
+   ```
+3. 필요한 패키지를 설치합니다.
+   ```sh
+   npm install
+   ```
+4. OpenWeather API Key를 `src/App.js`의 `API_KEY` 변수에 입력합니다.
+5. 개발 서버를 실행합니다.
+   ```sh
+   npm start
+   ```
+6. 브라우저에서 [http://localhost:3000](http://localhost:3000) 으로 접속해 사용합니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 느낀점
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React와 OpenWeather API를 활용해 실제로 동작하는 서비스를 직접 만들어보며, 프론트엔드 개발의 재미와 성취감을 느꼈습니다.
+- 디자인과 사용자 경험(UI/UX)을 고민하며, 작은 디테일이 앱의 완성도를 높인다는 점을 체감했습니다.
+- API 연동, 에러 처리, 컴포넌트 구조화 등 실무에 가까운 경험을 할 수 있어 매우 유익했습니다.
