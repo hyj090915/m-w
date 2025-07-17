@@ -33,10 +33,3 @@ jobs:
         run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-sudo git add .
-sudo git commit -m "Add CI/CD workflow for GitHub Pages"
-sudo git push origin main
-
-npm run deploy
